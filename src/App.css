@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  max-width: 1400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.intersted{
+  background-color: #FFFFFF;
+  padding: 15px;
+  border-radius: 25px;
+  max-width: 223px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.intersted p:first-child{
+  font-size: 20px;
+  font-weight: 700;
+  /* line-height: 28.25px; */
+  font-family: sans-serif;
+}
+
+.intersted img{
+  width: 50px;
+  align-self: flex-end;
+}
+
+.features{
+  text-align: center;
+  background-color: #F3F3F3;
+  width: 200px;
+  /* height: 200px; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ border-radius: 20px;
+ color: #979797;
+}
+
+.features img{
+  width: 99px;
+}
+
+.features:hover{
+  background-color: #171E27;
+  color: #F3F3F3;
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  gap: 5px;
+}
+
+.flex img{
+  width: 15px;
+}
+
+.partners img{
+  height: 60px;
+}
